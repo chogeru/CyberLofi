@@ -49,3 +49,16 @@ crashlytics-build.properties
 
 # Packages (uncomment if using Package Manager lock only)
 # [Pp]ackages/
+
+# Local MCP-for-Unity server config (per-developer, machine-specific)
+VRCLofiworld/ProjectSettings/McpUnitySettings.json
+
+# Oversized third-party binaries (exceed the 50MB repo policy / GitHub's
+# 100MB hard limit). Kept locally only; re-add here if new huge assets
+# are imported from asset packs.
+VRCLofiworld/Assets/_ThirdParty/LeartesStudios/CyberpunkGigapack/Art/Meshes/ExtraMeshes/*.FBX
+VRCLofiworld/Assets/_ThirdParty/LeartesStudios/CyberpunkGigapack/Art/Textures/**/*.HDR
+VRCLofiworld/Assets/_ThirdParty/_DLNK/**/LightingData.asset
+VRCLofiworld/Assets/_ThirdParty/_DLNK/Neon City/Source/Mesh/Optimized Buildings/Essential Deco/*.fbx
+VRCLofiworld/Assets/_ThirdParty/Dark City 2/Demo/Test_Scene.unity
+VRCLofiworld/Assets/_ThirdParty/_DLNK/Essential Terrain Pack/Source/Mesh/BigTerrain.FBX
