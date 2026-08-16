@@ -42,5 +42,10 @@ Thumbs.db
 # Crashlytics
 crashlytics-build.properties
 
+# Raw asset store .unitypackage source files (already extracted into
+# Assets/; these are huge (GB-scale) and would blow past GitHub's
+# 100MB file limit if committed)
+*.unitypackage
+
 # Packages (uncomment if using Package Manager lock only)
 # [Pp]ackages/
