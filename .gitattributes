@@ -1,0 +1,23 @@
+* text=auto eol=lf
+
+# Unity YAML files should be treated as text for diffing
+*.cs diff=csharp text
+*.cginc text
+*.shader text
+
+# Binary assets: no LFS (avoid LFS storage/bandwidth charges).
+# Keep these out of the 100MB GitHub hard limit by never letting any
+# single asset grow past ~50MB (see .gitignore / pre-commit check).
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.tga binary
+*.exr binary
+*.hdr binary
+*.fbx binary
+*.wav binary
+*.mp3 binary
+*.mp4 binary
+*.dll binary
+*.a binary
